@@ -1,0 +1,5 @@
+sqlalchemy
+Os modelos estão no models.py, nas classes Autor e Livro.
+Autor é o lado um, Livro é o lado muitos.
+O ForeignKey liga o livro ao autor, sem ele não há relação.
+Sem o commit os dados não ficam salvos, somem ao fechar.
